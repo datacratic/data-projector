@@ -220,7 +220,7 @@ class DataProjector extends Observer
 
       @projector.setColors(@colors) # use generated palette
       @projector.load(@storage) # load data for visualization
-
+      @onToolbarEvent(Toolbar.EVENT_SPIN_RIGHT)
 
 
 dataProjector = new DataProjector() # run!
